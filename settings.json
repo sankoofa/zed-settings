@@ -1,8 +1,11 @@
 {
+  "search": {
+    "include_ignored": true
+  },
   "agent": {
     "default_model": {
-      "provider": "google",
-      "model": "gemini-2.5-flash"
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
     },
     "model_parameters": []
   },
@@ -18,6 +21,7 @@
     "experimental.show": true
   },
   "project_panel": {
+    "hide_gitignore": false,
     "auto_fold_dirs": false
   },
   "scrollbar": {
