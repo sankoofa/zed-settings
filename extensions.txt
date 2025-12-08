@@ -1,2 +1,3 @@
 ~ ❯ ls ~/.local/share/zed/extensions/installed
-bearded-icon-theme  biome  discord-presence  git-firefly  html  live-server  log  python-requirements  ssh-config  tokyo-night
+basher              biome             emoji-completions  html           hyprlang     noir                 ssh-config
+bearded-icon-theme  discord-presence  git-firefly        html-snippets  live-server  python-requirements  tokyo-night
