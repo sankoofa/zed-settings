@@ -1,28 +1,26 @@
 {
-  "search": {
-    "include_ignored": true
-  },
-  "agent": {
-    "default_model": {
-      "provider": "deepseek",
-      "model": "deepseek-coder"
-    },
-    "model_parameters": []
-  },
-  "icon_theme": "Bearded Icon Theme",
   "theme": {
     "mode": "dark",
-    "dark": "Tokyo Night",
+    "dark": "Tokyo Night Moon",
     "light": "Ayu Light"
   },
+  "icon_theme": "Bearded Icon Theme",
   "ui_font_size": 16,
-
-  "status_bar": {
-    "experimental.show": true
+  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 14,
+  "buffer_font_features": {
+    "calt": true,
+    "ss01": true
   },
-  "project_panel": {
-    "hide_gitignore": false,
-    "auto_fold_dirs": false
+  "terminal": {
+    "font_family": "JetBrains Mono",
+    "font_size": 14
+  },
+  "current_line_highlight": "gutter",
+  "rounded_selection": false,
+  "show_whitespaces": "none",
+  "minimap": {
+    "show": "never"
   },
   "scrollbar": {
     "axes": {
@@ -30,28 +28,52 @@
       "vertical": false
     }
   },
-  "minimap": {
-    "show": "never"
-  },
-  "base_keymap": "VSCode",
-
-  "buffer_font_family": "Fira Code",
-  "buffer_font_size": 14,
-  "buffer_font_features": {
-    "calt": true,
-    "ss01": true
-  },
-  "current_line_highlight": "gutter",
-  "show_whitespaces": "none",
   "wrap_guides": [80, 120],
   "soft_wrap": "editor_width",
-  "show_edit_predictions": true,
 
-  "terminal": {
-    "font_family": "JetBrains Mono",
-    "font_size": 14
+
+  "formatter": "language_server",
+  "base_keymap": "VSCode",
+  "hard_tabs": true,
+  "show_completions_on_input": true,
+  "show_edit_predictions": true,
+  "features": {
+    "edit_prediction_provider": "supermaven"
   },
 
+
+  "search": {
+    "include_ignored": true
+  },
+  "status_bar": {
+    "experimental.show": true
+  },
+  "project_panel": {
+    "hide_gitignore": false,
+    "auto_fold_dirs": false
+  },
+
+
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true
+    }
+  },
+
+
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 500
+    }
+  },
+
+
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+
+  
   "languages": {
     "Python": {
       "language_servers": ["!ruff", "!pylsp", "!python-refactoring", "pyright"]
@@ -68,21 +90,5 @@
         }
       }
     }
-  },
-
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 500
-    }
-  },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-
-  "show_completions_on_input": true,
-
-  "features": {
-    "edit_prediction_provider": "supermaven"
   }
 }
