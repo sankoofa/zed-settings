@@ -4,7 +4,7 @@
   },
   "theme": {
     "mode": "dark",
-    "dark": "One Dark - Darkened",
+    "dark": "Darcula Dark",
     "light": "Ayu Light"
   },
   "icon_theme": "Bearded Icon Theme",
@@ -28,10 +28,10 @@
   "scrollbar": {
     "axes": {
       "horizontal": false,
-      "vertical": false
+      "vertical": true
     }
   },
-  "wrap_guides": [80, 120],
+  "wrap_guides": [100, 120],
   "soft_wrap": "editor_width",
   "formatter": "language_server",
   "base_keymap": "VSCode",
